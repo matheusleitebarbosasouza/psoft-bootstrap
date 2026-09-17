@@ -1,4 +1,4 @@
-public class Funcionario extends Pessoa{
+public class funcionario extends Pessoa{
   public String nome;
   public Integer idade;
   public String CPF;
@@ -7,7 +7,7 @@ public class Funcionario extends Pessoa{
   public String Profissao; 
 
   
-  public Funcionario(String nome, Int idade, String CPF, String telefone, String[] Endereco, String profissao){
+  public funcionario(String nome, Int idade, String CPF, String telefone, String[] Endereco, String profissao){
       this.nome = nome;
       this.idade = idade;
       this.telefone = telefone;
